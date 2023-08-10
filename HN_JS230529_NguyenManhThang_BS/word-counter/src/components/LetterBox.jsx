@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-function LetterBox() {
-  return <div className="LetterBox">LetterBox</div>;
-}
+// function LetterBox() {
+//   return <div className="LetterBox">LetterBox</div>;
+// }
 
-export default LetterBox;
+// export default LetterBox;
