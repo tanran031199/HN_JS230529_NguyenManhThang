@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+i {
+  font-style: normal;
+}
+
+.wordCounter {
+  background-image: linear-gradient(
+    50deg,
+    rgb(150, 108, 166),
+    rgba(227, 183, 190, 0.893)
+  );
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.head-title {
+  text-align: center;
+  padding: 3rem 0;
+  color: rgb(83, 7, 83);
+  font-family: "Caveat", cursive;
+}
+
+.word-count-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wordBox {
+  text-align: center;
+  height: 130px;
+  background: linear-gradient(50deg, rgb(136, 10, 136), rgb(223, 52, 183));
+  padding: 0.5rem 4rem;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #555;
+}
+
+.count-title h3 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.text {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.form textarea {
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 84%;
+  height: 280px;
+  background: rgb(228, 228, 228);
+}
+
+.form textarea::placeholder {
+  color: #525252d4;
+  font-weight: bold;
+}
+
+.form textarea:focus-visible {
+  border: 2px solid rgb(0, 128, 255);
+  outline: none;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.button-box button {
+  font-weight: bold;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(136, 10, 136);
+  box-shadow: 2px 2px 5px #555;
+  transition: transform 0.2s linear;
+  cursor: pointer;
+}
+
+.button-box button:hover {
+  transform: translateY(-4px);
+}
